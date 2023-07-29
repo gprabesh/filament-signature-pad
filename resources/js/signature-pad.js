@@ -46,7 +46,7 @@ document.addEventListener('alpine:init', () => {
 
             },
             save() {
-                this.state = this.signaturePad.toDataURL('image/svg+xml');
+                this.state = this.signaturePad.toDataURL('image/png');
                 this.$dispatch('signature-saved', this.signaturePadId);
             },
             clear() {

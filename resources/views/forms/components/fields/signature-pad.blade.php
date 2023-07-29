@@ -22,7 +22,7 @@
         penColor: '{{$getPenColor()}}',
         backgroundColor: '{{$getBackgroundColor()}}'
     })" @resize.window="resizeCanvas" class="bg-white">
-        @if($isDisabled())
+        @if($isDisabledDownload())
             <img class="w-full h-full border-2 border-gray-300 border-dashed rounded-md" :src="state" alt="sig">
         @else
             <canvas x-ref="canvas" class="w-full h-full border-2 border-gray-300 border-dashed rounded-md"></canvas>

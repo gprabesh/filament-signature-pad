@@ -1,12 +1,12 @@
 <?php
 
-namespace Savannabits\SignaturePad\Tests;
+namespace Gprabesh\SignaturePad\Tests;
 
 use Filament\FilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Savannabits\SignaturePad\SignaturePadServiceProvider;
+use Gprabesh\SignaturePad\SignaturePadServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -15,7 +15,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Savannabits\\SignaturePad\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Gprabesh\\SignaturePad\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

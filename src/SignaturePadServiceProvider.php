@@ -1,6 +1,6 @@
 <?php
 
-namespace Savannabits\SignaturePad;
+namespace Gprabesh\SignaturePad;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;

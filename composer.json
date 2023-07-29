@@ -1,17 +1,17 @@
 {
-    "name": "savannabits/filament-signature-pad",
+    "name": "gprabesh/filament-signature-pad",
     "description": "Signature Pad Field for Filamentphp Forms",
     "keywords": [
         "savannabits",
         "laravel",
         "filament-signature-pad"
     ],
-    "homepage": "https://github.com/savannabits/filament-signature-pad",
+    "homepage": "https://github.com/gprabesh/filament-signature-pad",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sam Maosa",
-            "email": "maosa.sam@gmail.com",
+            "name": "Prabesh Guragain",
+            "email": "pguragain3@gmail.com",
             "role": "Developer"
         }
     ],
@@ -38,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Savannabits\\SignaturePad\\": "src",
-            "Savannabits\\SignaturePad\\Database\\Factories\\": "database/factories"
+            "Gprabesh\\SignaturePad\\": "src",
+            "Gprabesh\\SignaturePad\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Savannabits\\SignaturePad\\Tests\\": "tests"
+            "Gprabesh\\SignaturePad\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Savannabits\\SignaturePad\\SignaturePadServiceProvider"
+                "Gprabesh\\SignaturePad\\SignaturePadServiceProvider"
             ],
             "aliases": {
-                "SignaturePad": "Savannabits\\SignaturePad\\Facades\\SignaturePad"
+                "SignaturePad": "Gprabesh\\SignaturePad\\Facades\\SignaturePad"
             }
         }
     },
