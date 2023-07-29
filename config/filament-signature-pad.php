@@ -1,6 +1,6 @@
 <?php
 
-// config for Savannabits/SignaturePad
+// config for Gprabesh/SignaturePad
 return [
 
 ];

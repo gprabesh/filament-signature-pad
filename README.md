@@ -22,7 +22,7 @@ composer require savannabits/filament-signature-pad
 
 You can now use the SignaturePad field in your form builder. 
 ```php
-    use Savannabits\SignaturePad\Forms\Components\Fields\SignaturePad;
+    use Gprabesh\SignaturePad\Forms\Components\Fields\SignaturePad;
     public static function form(Form $form): Form
     {
         return $form
@@ -35,7 +35,7 @@ You can now use the SignaturePad field in your form builder.
 ```
 You can also set the Signature Pad Options as shown below. [See SignaturePad Options Docs](https://github.com/szimek/signature_pad#options) for more details.
 ```php
-    use Savannabits\SignaturePad\Forms\Components\Fields\SignaturePad;
+    use Gprabesh\SignaturePad\Forms\Components\Fields\SignaturePad;
     public static function form(Form $form): Form
     {
         return $form
